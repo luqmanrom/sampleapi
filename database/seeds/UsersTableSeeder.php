@@ -18,6 +18,13 @@ class UsersTableSeeder extends Seeder
                 'email' => 'zulfajuniadi@gmail.com',
                 'password' => app('hash')->make('abcd1234'),
             ],
+            [
+
+                'name' => 'Luqman Rom',
+                'email' => 'luqmanrom@gmail.com'
+                'password' => app('hash')->make('abcd1234'),
+
+            ]
         ];
 
         foreach ($users as $user) {
